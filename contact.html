@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact</title>
+  <link rel="stylesheet" href="contact.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+
+<body>
+  <nav>
+    <a >
+      <p class="c">Kishorekumar G</p>
+    </a>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Me</a>
+    <a href="experience.html">Experience</a>
+    <a href="education.html">Education</a>
+    <a href="project.html">Projects</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <div class="contact-container">
+    <h2>CONTACT WITH ME</h2>
+    <p>If you have any questions or concerns, please don't hesitate to contact me. I am open to any work opportunities
+      that align with my skills and interests.</p>
+
+    <div class="contact-wrapper">
+      <form id="contact-form" class="contact-form">
+        <label>Your Name :</label>
+        <input type="text" name="user_name" placeholder="Enter your name" required>
+
+
+        <label>Your Email :</label>
+        <input type="email" name="user_email" placeholder="Enter your email" required>
+
+        <label>Your Message :</label>
+        <textarea name="message" rows="5" placeholder="Write your message"></textarea>
+
+        <button type="submit">SEND MESSAGE <i class="fas fa-paper-plane"></i></button>
+
+
+      </form>
+
+      <div class="contact-info">
+        <p><a href="mailto:kishorekumargmsk@gmail.com" class="mail"><i class="fas fa-envelope"></i>
+            kishorekumargmsk@gmail.com</a></p>
+        <p><i class="fas fa-map-marker-alt"></i> Krishnagiri(Dt),<br>
+          Pochampalli(tk),<br>
+          Barur (vill, post)<br>
+          635201</p>
+
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/kishore-kumar-2754aa290?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-linkedin-in"></i> LinkedIn
+          </a>
+          <a href="https://github.com/kishore2205" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-github"></i> GitHub
+          </a>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <footer>© Portfolio Developed by <span>KISHOREKUMAR G</span></footer>
+  </div>
+
+  <!-- EmailJS SDK -->
+  <!-- EmailJS -->
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
+  <!-- SweetAlert2 -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+
+  <!-- Initialize EmailJS & send form (in contact.js) -->
+  <script src="protfolio.js"></script>
+</body>
+
+</html>
